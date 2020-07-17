@@ -1,8 +1,8 @@
 import tensorflow as tf
-import post_processing.post as post
-import configs.post_config as post_config
-import configs.keypoints_config as kpts_config
-import configs.default_config as def_config
+import applications.post_processing.post as post
+import applications.configs.post_config as post_config
+import applications.configs.keypoints_config as kpts_config
+import applications.configs.default_config as def_config
 
 post.Skeletonizer.config(kpts_config.KEYPOINTS_DEF, kpts_config.JOINTS_DEF, post_config)
 post.Skeleton.config(kpts_config.KEYPOINTS_DEF, kpts_config.JOINTS_DEF)

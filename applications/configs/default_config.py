@@ -1,4 +1,4 @@
-from configs.keypoints_config import *
+from applications.configs.keypoints_config import *
 
 TPU_MODE = False
 RUN_NAME = ""

@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="https://github.com/gradio-app/Yet-Another-Openpose-Implementation/blob/master/screenshot.png?raw=true"/>
+  </p>
+
+
+
+
+
 Yet Another Openpose Implementation
 ---
 The Openpose algorithm processes an image with a deep CNN and extracts a skeleton representation of the pose of multiple people from it

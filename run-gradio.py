@@ -6,8 +6,8 @@ c = CamApp()
 inp = gr.inputs.Image(label="Input Image", shape=(512,512))
 out = gr.outputs.Image(label="Pose")
 title="Pose Estimation"
-description="Upload a picture of yourself or another person, and the Openpose algorithm will identify . Handles " \
-            "multiple people."
+description="Upload a picture of yourself or another person, and the Openpose algorithm will identify your face, arms, and legs. Handles " \
+            "multiple people as well!"
 examples = [
     ["obama.jpg"],
     ["uswnt.jpg"]
